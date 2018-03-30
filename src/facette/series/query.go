@@ -10,6 +10,11 @@ type Query struct {
 	Series    []QuerySeries
 }
 
+// Step returns a step duration according to the query sampling.
+func (q *Query) Step() time.Duration {
+	return q.EndTime.Sub(q.StartTime) / time.Duration(q.Sample)
+}
+
 // QuerySeries represents a series instance in a time series point query.
 type QuerySeries struct {
 	Origin string

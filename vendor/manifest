@@ -156,6 +156,27 @@
 			"branch": "master"
 		},
 		{
+			"importpath": "github.com/prometheus/client_golang/api",
+			"repository": "https://github.com/prometheus/client_golang",
+			"revision": "9bb6ab929dcbe1c8393cd9ef70387cb69811bd1c",
+			"branch": "master",
+			"path": "/api"
+		},
+		{
+			"importpath": "github.com/prometheus/client_golang/api/prometheus/v1",
+			"repository": "https://github.com/prometheus/client_golang",
+			"revision": "9bb6ab929dcbe1c8393cd9ef70387cb69811bd1c",
+			"branch": "master",
+			"path": "/api/prometheus/v1"
+		},
+		{
+			"importpath": "github.com/prometheus/common/model",
+			"repository": "https://github.com/prometheus/common",
+			"revision": "89604d197083d4781071d3c65855d24ecfb0a563",
+			"branch": "master",
+			"path": "/model"
+		},
+		{
 			"importpath": "github.com/ziutek/rrd",
 			"repository": "https://github.com/ziutek/rrd",
 			"revision": "86f4f09e7abbf4bfb3912da6c041cabba4e933bc",
