@@ -1,0 +1,17 @@
+{
+  "name": "boula",
+  "description": "Facette time series charts library",
+  "license": "BSD-3-Clause",
+  "main": "boula.js",
+  "homepage": "https://github.com/facette/boula-bower",
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "cf57956ccbc1c637d0dba72601962783ab8b7742"
+  },
+  "_source": "https://github.com/facette/boula-bower.git",
+  "_target": "0.1.0",
+  "_originalSource": "boula"
+}

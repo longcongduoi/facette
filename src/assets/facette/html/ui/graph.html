@@ -52,5 +52,10 @@
 		<message icon="clock-o" ng-class="{float: data}" ng-show="loading">{{ 'mesg.points_fetch' | translate }}</message>
 		<message icon="info-circle" ng-show="empty">{{ 'mesg.points_empty' | translate }}</a></message>
 		<message icon="times-circle" ng-show="error">{{ 'mesg.points_error' | translate }}</a></message>
+
+		<div class="graph-cursor"></div>
+		<div class="graph-tooltip"></div>
+
+		<canvas class="graph-canvas"></canvas>
 	</div>
 </div>

@@ -1,0 +1,6 @@
+{
+  "name": "boula",
+  "description": "Facette time series charts library",
+  "license": "BSD-3-Clause",
+  "main": "boula.js"
+}
